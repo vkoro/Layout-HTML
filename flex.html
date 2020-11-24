@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Шаблон страницы на flex-box</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        header, main, footer {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            padding: 20px 0;
+        }
+
+        header {
+            background-color: #5c5c7d;
+        }
+
+        main {
+            background-color: #e1e7ee;
+            flex: 1 1 auto;
+        }
+
+        footer {
+            background-color: #2f3840;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p>(1)</p>
+        <p>Header</p>
+    </header>
+    <main>
+        <p>(2) Main</p>
+    </main>
+    <footer>
+        <p>(3)</p>
+        <p>Footer</p>
+    </footer>
+</body>
+
+</html>
