@@ -159,3 +159,9 @@ table {
     margin: 0 auto;
     width: px;
 }
+
+p {
+    background: url("../img/ico.png") no-repeat 0 0; /*Путь к картинке в файле css */
+    height: 40px;
+    width: 40px;
+}
