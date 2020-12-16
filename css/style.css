@@ -50,7 +50,7 @@ ol, ul {
     list-style-type: none;
 }
 
-a, a:focus, img, button {
+a, img, button {
     border: none;
     outline: none;
 }
