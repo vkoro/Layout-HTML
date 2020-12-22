@@ -22,6 +22,7 @@
 
 html {
     font-size: 100%;
+    /*  font-size: calc( (100vw - 320px)/(1280 - 320) * (24 - 16) + 16px);    */
 }
 
 html, body {
