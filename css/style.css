@@ -39,10 +39,6 @@ body, table {
     font-size: 0.88rem;
 }
 
-body {
-    background-color: var(--white);
-}
-
 input, textarea, select, button {
     cursor: pointer;
 }
@@ -98,9 +94,9 @@ textarea {
 
 input[type="text"], input[type="password"] {
     background-color: transparent;
-    color: var(--base-color);
-    font-family: var(--base-font);
-    font-size: var(--base-font-size);
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
     vertical-align: middle;
 }
 
